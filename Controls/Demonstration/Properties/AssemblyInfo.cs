@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Controls")]
-[assembly: AssemblyDescription("A simple, flat-themed Switch Control for Windows Forms applications.")]
+[assembly: AssemblyTitle("Demonstration")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Jason Pezzimenti")]
-[assembly: AssemblyProduct("Controls")]
-[assembly: AssemblyCopyright("Copyright © Jason Pezzimenti 2014 - Present")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Demonstration")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c85c04ec-2660-44ad-a3b9-65112d22b241")]
+[assembly: Guid("4373ce12-fc45-4563-9448-646f42578699")]
 
 // Version information for an assembly consists of the following four values:
 //
