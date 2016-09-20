@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Switch
+            // 
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Switch_MouseClick);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Switch_MouseDown);
+            this.MouseEnter += new System.EventHandler(this.Switch_MouseEnter);
+            this.MouseLeave += new System.EventHandler(this.Switch_MouseLeave);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Switch_MouseUp);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
