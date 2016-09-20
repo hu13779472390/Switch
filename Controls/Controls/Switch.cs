@@ -44,6 +44,8 @@ namespace Controls
         public Switch()
         {
             InitializeComponent();
+
+            this.DoubleBuffered = true;
         }
 
         private void Switch_MouseClick(object sender, MouseEventArgs e)
