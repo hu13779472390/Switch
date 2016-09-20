@@ -103,6 +103,11 @@ namespace Controls
             this.Refresh();
         }
 
+        protected override void OnSizeChanged(EventArgs e)
+        {
+            this.Refresh();
+        }
+
         protected override void OnPaint(PaintEventArgs pe)
         {
             base.OnPaint(pe);
