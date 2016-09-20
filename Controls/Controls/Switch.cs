@@ -46,6 +46,7 @@ namespace Controls
             InitializeComponent();
 
             this.DoubleBuffered = true;
+            this.Size = new Size(53, 23);
         }
 
         private void Switch_MouseClick(object sender, MouseEventArgs e)
