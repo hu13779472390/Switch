@@ -14,6 +14,33 @@ namespace Controls
     {
         private bool mouseEntered, mouseDown;
 
+        public EventHandler<SwitchedEventArgs> Switched;
+
+        public class SwitchedEventArgs : EventArgs
+        {
+            private SwitchStates switchState;
+
+            public SwitchedEventArgs(Switch sender, SwitchStates state)
+            {
+                this.switchState = state;
+            }
+
+            public SwitchStates CurrentState
+            {
+                get { return switchState; }
+            }
+        }
+
+        [Category("States")]
+        [Browsable(true)]
+        public SwitchStates CurrentState { get; set; }
+
+        public enum SwitchStates
+        {
+            On,
+            Off
+        }
+
         public Switch()
         {
             InitializeComponent();
